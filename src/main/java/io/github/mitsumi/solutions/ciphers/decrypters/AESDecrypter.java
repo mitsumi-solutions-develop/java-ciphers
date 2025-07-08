@@ -32,7 +32,7 @@ public final class AESDecrypter {
             );
 
             return cipher.doFinal(encrypted);
-        } catch (IllegalArgumentException | GeneralSecurityException e) {
+        } catch (GeneralSecurityException e) {
             throw new IllegalArgumentException(e);
         }
     }

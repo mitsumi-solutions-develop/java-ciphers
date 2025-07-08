@@ -63,7 +63,7 @@ public final class AESEncrypter {
             );
 
             return new AESEncryptedResult(key, iv, cipher.doFinal(plainText));
-        } catch (IllegalArgumentException | GeneralSecurityException e) {
+        } catch (GeneralSecurityException e) {
             throw new IllegalArgumentException(e);
         }
     }
