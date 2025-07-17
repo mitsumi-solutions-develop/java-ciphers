@@ -14,7 +14,7 @@
   <dependency>
       <groupId>io.github.mitsumi-solutions-develop</groupId>
       <artifactId>java-ciphers</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.2</version>
   </dependency>
   ```
 
